@@ -79,5 +79,5 @@ It provides:
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/stock-ai-predictor.git
-cd stock-ai-predictor
+git clone https://github.com/nityanshu31/StockAi-Predictor.git
+cd StockAi-Predictor
