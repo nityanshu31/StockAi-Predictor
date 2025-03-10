@@ -27,8 +27,7 @@ It provides:
 - **Machine Learning & AI Models** (for stock price prediction) 🤖  
 - **Binance API** (for live stock price tracking) 💹  
 
-### **Database**
-- **MongoDB** (to store user portfolios, stock data, and AI predictions) 🗄️  
+ 
 
 ### **Algorithms Used**
 - **Sliding Window Algorithm** – Tracks short-term stock fluctuations  
