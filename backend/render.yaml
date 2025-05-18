@@ -1,10 +1,11 @@
 services:
   - type: web
-    name: my-app
+    name: rust-python-app
     env: python
-    buildCommand: |
-      curl https://sh.rustup.rs -sSf | sh -s -- -y
-      export PATH="$HOME/.cargo/bin:$PATH"
-      pip install --upgrade pip
-      pip install -r requirements.txt
-    startCommand: python app.py  # or your app entry point
+    region: oregon  # or whatever region suits you
+    buildCommand: ./render-build.sh
+    startCommand: python app.py  # 🔁 Replace `app.py` with your actual start script
+    plan: free
+    envVars:
+      - key: CARGO_HOME
+        value: /opt/render/project/.cargo
